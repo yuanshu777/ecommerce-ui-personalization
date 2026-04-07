@@ -1,0 +1,19 @@
+﻿# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Optional local exports
+*.html
+*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
