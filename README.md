@@ -58,10 +58,10 @@ ui_ds-main/
     analysis_design.md
   notebooks/
     00_project_overview.ipynb
-    01_eda1.ipynb
-    02_ab_experiment1.ipynb
-    03_variant_level_analysis1.ipynb
-    04_modeling1.ipynb
+    01_eda.ipynb
+    02_ab_experiment.ipynb
+    03_variant_level_analysis.ipynb
+    04_modeling.ipynb
   data/
     session_level.parquet
 ```
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Run notebooks in order: `00_project_overview -> 01_eda1 -> 02_ab_experiment1 -> 03_variant_level_analysis1 -> 04_modeling1`.
+Run notebooks in order: `00_project_overview -> 01_eda -> 02_ab_experiment -> 03_variant_level_analysis -> 04_modeling`.
 
 ## Limitations
 - Observational logs, not randomized assignment.
